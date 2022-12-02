@@ -1,0 +1,57 @@
+@import 'assets/styles/sass/_variables';
+@import 'assets/styles/sass/_typography';
+@import 'assets/styles/sass/_mixins';
+// @import 'assets/styles/sass/_animations';
+// @import 'assets/styles/sass/_media-mixins';
+
+
+* {
+  @include reset-all
+}
+
+body {
+  width: 100%;
+  font-family: $poppins;
+  color: $defaultTextColor;
+  background-color: $appBackgroundColor;
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: $sourceCode;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: $defaultTextColor;
+}
+
+.app__content {
+  @include flex-container(stretch, flex-start, no-wrap, 0);
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: none;
+}
+
+.app__body {
+  @include flex-container(flex-start, stretch, no-wrap, 0);
+  width: 100%;
+}
+
+
+.page-title {
+  font-size: 25px;
+}
+
+.page-content {
+  @include size;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 1px solid $layoutSplitterColor;
+}
+
+
+.bold {
+  font-weight: bold;
+}

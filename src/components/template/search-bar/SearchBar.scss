@@ -1,0 +1,88 @@
+@import 'assets/styles/sass/_variables';
+@import 'assets/styles/sass/_mixins';
+@import 'assets/styles/sass/_media-mixins';
+
+
+.search-bar__wrapper {
+  transition: $longTransition;
+
+  @include for-phone-only {
+    display: none;
+    width: 100%;
+    margin: 1rem auto 0;
+    padding-bottom: 1.5rem;
+    border-bottom: 4px solid $white;
+  }
+}
+
+$labelWidth: 0;
+
+.search-bar__label {
+  position: relative;
+  width: max-content;
+  cursor: text;
+}
+
+.search-bar__icon {
+  position: absolute;
+  left: 4%;
+  top: 1px;
+
+  font-size: 18px;
+  color: $x11Grey;
+  cursor: pointer;
+}
+
+.search-bar__clear-link {
+  display: none;
+  @extend .search-bar__icon;
+  @include reset-all;
+  top: 3px;
+  left: 93%;
+  background-color: transparent;
+
+
+  font-size: 18px;
+
+  &,
+  &:visited {
+    color: $x11Grey;
+  }
+
+  &:hover {
+    color: $red;
+  }
+
+  @include for-phone-only {
+    left: 91%;
+  }
+}
+
+
+.search-bar__mobile-toggle {
+  display: none;
+
+  @include for-phone-only {
+    display: block;
+  }
+}
+
+.search-bar__input {
+  @include size(280px, 40px);
+  min-width: 350px;
+
+  padding: 2px 20px 2px 45px;
+
+  border: 1px solid $gainsboroGrey;
+  border-radius: 5px;
+  font-size: 14px;
+
+  &::placeholder {
+    color: $x11Grey;
+    opacity: 1;
+  }
+
+  @include for-phone-only {
+    @include size(100%, 45px)
+  }
+}

@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# MYAPPNAME GOES HERE
+<!-- > Live demo [_here_](https://www.example.com). If you have the project hosted somewhere, include the link here. -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Table of Contents
+* [General Info](#general-information)
+* [Setup](#setup)
+* [Usage](#usage)
+* [Development Process](#development-process)
+* [Project Status](#project-status)
+* [Contact](#contact)
 
-In the project directory, you can run:
+
+---
+## General Information
+<!-- 
+- Provide general information about your project here.
+- What problem does it (intend to) solve?
+- What is the purpose of your project?
+- Why did you undertake it?
+You don't have to answer all the questions - just the ones relevant to your project. 
+-->
+
+
+---
+## Project Setup
+To run this project, it requires to download and install all related dependencies first. Please make sure to run `npm install`. 
+
+
+## Project Usage
+Once in the project directory, you can run:
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Runs the app in the development mode and opens it in [http://localhost:3000](http://localhost:3000).
 
 ### `npm run build`
+Builds the app for production to the `build` folder.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `npm test`
+Launches the test runner in the interactive watch mode.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npm lint`
+Checks if all files in the app follow the provided linter guidelines. If negative, highlights in terminal any possible issue.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+---
+## Project Status
+Project is: `_in progress_`.\
+<!-- Project is: _in progress_ / _complete_ / _no longer being worked on_. 
+If you are no longer working on it, provide reasons why. -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
+## Development Process
+These are the key milestones to be tracked during this test:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### MILESTONE 1 - Setup Workspace
+- ✅ Setup basic configuration.
+- ✅ Clean project from unnecessary files.
+- ✅ Create standard project structure.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### MILESTONE 2 - Draft main pages / components
+- Design draft for site header.
+- Design draft for pages 'common' body.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### MILESTONE 2 - Connect to API
+- Setup common services information.
+- Get app ready to fetch data from API.
+- Send test REST requests to model responses.
+- ✅ Create aux functions to persist data in local storage.
 
-### Code Splitting
+### MILESTONE 3 - Draft main pages / components
+- Design draft for site header.
+- Design draft for site footer.
+- Design draft for pages 'common' body.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### MILESTONE 4 - Navigate through pages
+- Wrap app into React BrowserRouter.
+- Provide navigation functionality to ...
+- Include "back" navigation functionality at ...
 
-### Analyzing the Bundle Size
+...
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+-->
 
-### Making a Progressive Web App
+### TO-DO: EXTRA TASKS, IMPROVEMENTS, OPTIMIZATIONS...
+- [EXTRA] ...
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+## Authors' Notes & Contact
+👋🏻 Feel free to [_get in touch_](mailto:joel@jowdigital.tech) in case you experience any issues to run the project, or you want to share suggestions about this project.

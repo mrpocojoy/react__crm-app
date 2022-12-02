@@ -1,0 +1,22 @@
+@import 'assets/styles/sass/_variables';
+@import 'assets/styles/sass/_mixins';
+
+.back-link {
+  @include flex-container(flex-start, center, no-wrap, 8px);
+
+  width: max-content;
+  text-decoration: none;
+  color: $graniteGrey;
+  font-size: 1rem;
+
+  transition: $defaultTransition;
+
+  &:hover {
+    color: lighten($graniteGrey, 30);
+  }
+
+}
+
+.back-link__label {
+  margin: 0 1rem
+}

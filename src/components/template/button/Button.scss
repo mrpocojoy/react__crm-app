@@ -1,0 +1,24 @@
+@import 'assets/styles/sass/_variables';
+@import 'assets/styles/sass/_mixins';
+@import 'assets/styles/sass/_media-mixins';
+
+button,
+input[type="reset"],
+input[type="button"],
+input[type="submit"],
+input[type="file"] > input[type="button"] {
+  padding: 0;
+  margin: 0;
+  outline-style: none;
+  @include default-button;
+}
+
+
+.button {
+  @include flex-container(center, center)
+}
+
+
+.button > .custom-icon {
+  pointer-events: none;
+}
